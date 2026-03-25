@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Headlines Hair Studio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="header">
+  <div class="container nav-wrapper">
+    <a href="index.html" class="logo"><img src="logo.png" alt="Headlines Hair Studio Logo"></a>
+    <nav class="nav-menu">
+      <a href="index.html">Home</a><a href="services.html">Services</a>
+      <a href="gallery.html">Gallery</a><a href="pricing.html">Pricing</a>
+      <a href="reviews.html">Reviews</a><a href="contact.html" class="active">Contact</a>
+    </nav>
+    <a href="contact.html" class="btn btn-yellow nav-book">Book Now</a>
+    <button class="hamburger"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="mobile-nav">
+  <a href="index.html">Home</a><a href="services.html">Services</a><a href="gallery.html">Gallery</a>
+  <a href="pricing.html">Pricing</a><a href="reviews.html">Reviews</a><a href="contact.html">Contact</a>
+  <a href="contact.html" class="btn btn-yellow" style="margin-top:20px;text-align:center;">Book Now</a>
+</div>
+<div class="mobile-nav-overlay"></div>
+
+<section class="page-hero">
+  <h1>BOOK YOUR <span>MAKEOVER</span></h1>
+  <p>🌸✨ Your Destination for Beauty: Headlines Hair Studio – Expert Hands Awaiting You! ✨🌸</p>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- Left: Info -->
+      <div>
+        <!-- Phone Numbers -->
+        <div class="contact-card reveal">
+          <h3>Contact Detail</h3>
+          <ul class="phone-list">
+            <li><span>Primary</span><strong>01819-413787</strong></li>
+            <li><span>Email</span><strong>hearlinesuttara@gmail.com</strong></li>
+          </ul>
+          <p style="margin-top: 15px; color: var(--gray); font-size: 0.9rem;">
+            House-37, Gausul Azam Avenue, Sector-14, Uttara, Dhaka-1230, Bangladesh
+          </p>
+        </div>
+
+        <!-- Hours -->
+        <div class="contact-card reveal" style="margin-top: 25px;">
+          <h3>Opening Info</h3>
+          <div class="contact-item">
+            <i class="fas fa-clock"></i>
+            <div>
+              <h4>Daily Hours</h4>
+              <p>Book your appointment today</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-calendar-check"></i>
+            <div>
+              <h4>Status</h4>
+              <p>Closed now</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-whatsapp"></i>
+            <div>
+              <h4>WhatsApp Booking</h4>
+              <p><a href="https://wa.me/8801819413787?text=Hello!%20Welcome%20to%20Headlines%20Hair%20Studio.%20How%20can%20we%20help%20you%20today?" target="_blank" style="color: var(--yellow);">Click to Book via WhatsApp</a></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Social -->
+        <div class="contact-card reveal" style="margin-top: 25px;">
+          <h3>Follow Our Style</h3>
+          <div style="display: flex; gap: 15px; flex-wrap: wrap; margin-top: 5px;">
+            <a href="#" class="btn btn-yellow" style="gap: 8px;"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="#" class="btn btn-outline-yellow" style="gap: 8px;"><i class="fab fa-facebook-f"></i> Facebook</a>
+            <a href="http://headlinesbd.com" class="btn btn-outline-yellow" style="gap: 8px;"><i class="fas fa-globe"></i> Website</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Form -->
+      <div class="contact-card reveal">
+        <h3>Send a Message</h3>
+        <p style="color: var(--gray); margin-bottom: 25px; font-size: 0.9rem;">🌟 Book Your Slot Today! 🌟</p>
+        <form id="contact-form" class="contact-form">
+          <input type="text" name="name" placeholder="Your Full Name" required>
+          <input type="tel" name="phone" placeholder="Your Phone Number" required>
+          <select name="branch">
+            <option value="uttara">Uttara Branch (Sector-14)</option>
+          </select>
+          <select name="service">
+            <option value="">Select Service / Package</option>
+            <option>Hair Cut & Treatment</option>
+            <option>Facial & Skin Care</option>
+            <option>Hair Coloring & Styling</option>
+            <option>Spa & Relaxation</option>
+            <option>Full Makeover</option>
+          </select>
+          <input type="text" name="date" placeholder="Preferred Date & Time">
+          <textarea name="message" placeholder="Any special request or message..."></textarea>
+          <button type="submit" class="btn btn-yellow btn-block">Send Booking Request</button>
+        </form>
+      </div>
+
+    </div>
+
+    <!-- Branches Grid -->
+    <div class="section-title reveal" style="margin-top: 80px;">
+      <h2>FIND OUR <span>LOCATION</span></h2>
+      <div class="title-line"></div>
+    </div>
+    <div class="branch-grid">
+      <div class="branch-card reveal">
+        <i class="fas fa-map-marker-alt"></i>
+        <h4>Uttara-14</h4>
+        <span>Lift 2, House-37, Sector-14, Gausul Azam Avenue, Dhaka</span>
+      </div>
+      <div class="branch-card reveal reveal-delay-1">
+        <i class="fas fa-globe"></i>
+        <h4>Web</h4>
+        <span><a href="http://headlinesbd.com" style="color: inherit;">headlinesbd.com</a></span>
+      </div>
+      <div class="branch-card reveal reveal-delay-2">
+        <i class="fas fa-clock"></i>
+        <h4>Status</h4>
+        <span>Closed now</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><img src="logo.png" alt="Headlines Hair Studio Logo"></a>
+        <p>👉 “Your Beauty, Your Confidence.” — Premium quality service with expert hands.</p>
+        <div class="social-row">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="footer-col"><h4>Pages</h4><ul>
+        <li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li><li><a href="pricing.html">Pricing</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Contact</h4><ul>
+        <li><a href="tel:01819-413787">Call: 01819-413787</a></li>
+        <li><a href="mailto:hearlinesuttara@gmail.com">Email: hearlinesuttara@gmail.com</a></li>
+        <li><a href="http://headlinesbd.com" target="_blank">Web: headlinesbd.com</a></li>
+        <li><a href="https://goo.gl/maps/example" target="_blank">House-37, Gausul Azam Avenue, Sector-14, Uttara, Dhaka</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">&copy; 2026 Headlines Hair Studio. All Rights Reserved.</div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

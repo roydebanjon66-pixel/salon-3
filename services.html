@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | Headlines Hair Studio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="header">
+  <div class="container nav-wrapper">
+    <a href="index.html" class="logo"><img src="logo.png" alt="Headlines Hair Studio Logo"></a>
+    <nav class="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a href="contact.html" class="btn btn-yellow nav-book">Book Now</a>
+    <button class="hamburger" aria-label="Toggle Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="mobile-nav">
+  <a href="index.html">Home</a><a href="services.html">Services</a><a href="gallery.html">Gallery</a>
+  <a href="pricing.html">Pricing</a><a href="reviews.html">Reviews</a><a href="contact.html">Contact</a>
+  <a href="contact.html" class="btn btn-yellow" style="margin-top:20px;text-align:center;">Book Now</a>
+</div>
+<div class="mobile-nav-overlay"></div>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <h1>OUR <span>SERVICES</span></h1>
+  <p>Premium quality service with expert hands</p>
+</section>
+
+<!-- MAIN SERVICES -->
+<section class="section">
+  <div class="container">
+    <div class="section-title reveal">
+      <h2>OUR <span>SERVICES</span></h2>
+      <div class="title-line"></div>
+      <p>Each of our services comes with special care, an experienced team, and a peaceful environment.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal reveal-delay-1">
+        <i class="fas fa-cut icon"></i>
+        <h3>Haircut & Treatment 💇🏻‍♂️</h3>
+        <p>Personalized consultation, precise fade or scissor cut tailored to your structure by expert hands.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <i class="fas fa-id-card icon"></i>
+        <h3>Facial & Skin Care</h3>
+        <p>Rejuvenating skin care and facial services from experts to restore your natural glow.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-3">
+        <i class="fas fa-palette icon"></i>
+        <h3>Hair Coloring & Styling</h3>
+        <p>Transform your look with professional coloring and styling tailored to your personality.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-4">
+        <i class="fas fa-spa icon"></i>
+        <h3>Spa & Relaxation 💆🏻</h3>
+        <p>Ultimate relaxation with our premium spa therapies in a peaceful environment.</p>
+      </div>
+    </div>
+    <div class="text-center gap reveal" style="margin-top: 40px;">
+      <p style="font-size: 1.5rem; color: var(--yellow); font-family: 'Bebas Neue'; letter-spacing: 2px;">👉 “Your Beauty, Your Confidence.”</p>
+    </div>
+  </div>
+</section>
+
+<!-- SPECIALIZED SERVICES -->
+<section class="section section--dark">
+  <div class="container">
+    <div class="section-title reveal">
+      <h2>SPECIALIZED <span>TREATMENTS</span></h2>
+      <div class="title-line"></div>
+      <p>Premium quality service with expert hands.</p>
+    </div>
+    <div class="spec-grid">
+      <div class="spec-item reveal"><i class="fas fa-cut"></i><span>Hair Cut</span></div>
+      <div class="spec-item reveal reveal-delay-1"><i class="fas fa-droplet"></i><span>Skin Care</span></div>
+      <div class="spec-item reveal reveal-delay-2"><i class="fas fa-palette"></i><span>Hair Color</span></div>
+      <div class="spec-item reveal reveal-delay-3"><i class="fas fa-wand-magic-sparkles"></i><span>Styling</span></div>
+      <div class="spec-item reveal"><i class="fas fa-hot-tub"></i><span>Spa Therapy</span></div>
+      <div class="spec-item reveal reveal-delay-1"><i class="fas fa-leaf"></i><span>Hair Treatment</span></div>
+      <div class="spec-item reveal reveal-delay-2"><i class="fas fa-hand-sparkles"></i><span>Specialities</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- INTERACTIVE SERVICE MENU -->
+<section class="section" id="interactive-menu">
+  <div class="container">
+    <div class="section-title reveal">
+      <h2>INTERACTIVE <span>MENU</span></h2>
+      <div class="title-line"></div>
+      <p>Explore our treatments to find the perfect style for you.</p>
+    </div>
+    <div class="interactive-services reveal">
+      <div class="service-buttons">
+         <button class="service-btn active" data-target="haircut">Haircut</button>
+         <button class="service-btn" data-target="skin">Skin Care</button>
+         <button class="service-btn" data-target="styling">Hair Styling</button>
+         <button class="service-btn" data-target="spa">Spa</button>
+         <button class="service-btn" data-target="treatment">Treatment</button>
+         <button class="service-btn" data-target="color">Coloring</button>
+      </div>
+      
+      <div class="service-display">
+      
+         <!-- Haircut -->
+         <div class="service-panel active" id="panel-haircut">
+            <img src="haircut_service.png" alt="Haircut">
+            <div class="service-panel-content">
+              <h3 class="service-panel-title">Haircut & Treatment</h3>
+              <p class="service-panel-desc">Personalized consultation and precise fade or scissor cut tailored to your face structure.</p>
+              <div class="service-panel-price">Starting from ৳500</div>
+            </div>
+         </div>
+         
+         <!-- Skin Care -->
+         <div class="service-panel" id="panel-skin">
+            <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800" alt="Skin Care">
+            <div class="service-panel-content">
+              <h3 class="service-panel-title">Facial & Skin Care</h3>
+              <p class="service-panel-desc">Advanced skin treatment and facial services to rejuvenate and refresh your look.</p>
+              <div class="service-panel-price">Starting from ৳1000</div>
+            </div>
+         </div>
+         
+         <!-- Hair Styling -->
+         <div class="service-panel" id="panel-styling">
+            <img src="hair_styling_service.png" alt="Hair Styling">
+            <div class="service-panel-content">
+              <h3 class="service-panel-title">Hair Styling</h3>
+              <p class="service-panel-desc">Professional blow-dry and styling product application so you leave looking sharp.</p>
+              <div class="service-panel-price">Included in All Packages</div>
+            </div>
+         </div>
+         
+         <!-- Spa -->
+         <div class="service-panel" id="panel-spa">
+            <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800" alt="Spa">
+            <div class="service-panel-content">
+              <h3 class="service-panel-title">Spa & Relaxation</h3>
+              <p class="service-panel-desc">Ultimate relaxation therapies designed to release stress and improve comfort.</p>
+              <div class="service-panel-price">Starting from ৳1500</div>
+            </div>
+         </div>
+         
+         <!-- Treatment -->
+         <div class="service-panel" id="panel-treatment">
+            <img src="https://images.unsplash.com/photo-1519824145371-296894a0daa9?auto=format&fit=crop&w=800" alt="Treatment">
+            <div class="service-panel-content">
+              <h3 class="service-panel-title">Hair Protein/Treatment</h3>
+              <p class="service-panel-desc">Keratin and scalp nourishment treatments for stronger, healthier hair.</p>
+              <div class="service-panel-price">Starting from ৳1200</div>
+            </div>
+         </div>
+         
+         <!-- Coloring -->
+         <div class="service-panel" id="panel-color">
+            <img src="https://images.unsplash.com/photo-1620331311520-246422fd82f9?auto=format&fit=crop&w=800" alt="Coloring">
+            <div class="service-panel-content">
+              <h3 class="service-panel-title">Hair Coloring</h3>
+              <p class="service-panel-desc">Global color, highlights, and gray blending by professional specialists.</p>
+              <div class="service-panel-price">Starting from ৳1500</div>
+            </div>
+         </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-band">
+  <div class="container">
+    <h2 class="reveal">🌟 Book Your Slot Today! 🌟</h2>
+    <p class="reveal">👉 Because you deserve the best care 💕</p>
+    <div class="cta-band-btns reveal">
+      <a href="contact.html" class="btn btn-yellow">Book Appointment</a>
+      <a href="pricing.html" class="btn btn-outline">View Pricing</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><img src="logo.png" alt="Headlines Hair Studio Logo"></a>
+        <p>👉 “Your Beauty, Your Confidence.” — Premium quality service with expert hands.</p>
+      </div>
+      <div class="footer-col"><h4>Pages</h4><ul>
+        <li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li><li><a href="pricing.html">Pricing</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Contact</h4><ul>
+        <li><a href="tel:01819-413787">Call: 01819-413787</a></li>
+        <li><a href="mailto:hearlinesuttara@gmail.com">Email: hearlinesuttara@gmail.com</a></li>
+        <li><a href="http://headlinesbd.com" target="_blank">Web: headlinesbd.com</a></li>
+        <li><a href="https://goo.gl/maps/example" target="_blank">House-37, Gausul Azam Avenue, Sector-14, Uttara, Dhaka</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">&copy; 2026 Headlines Hair Studio. All Rights Reserved.</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
